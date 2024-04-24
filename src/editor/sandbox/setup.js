@@ -47,7 +47,6 @@ function setup(isShared) {
       sendMessage({
         evt: 'optionUpdated',
         option: JSON.stringify(chart.getOption(), (key, val) => {
-          typeof val == '';
           if (echarts.util.isFunction(val) || typeof val === 'bigint') {
             return val.toString();
           }

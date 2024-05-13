@@ -295,6 +295,17 @@ export default [
   },
   {
     "category": [
+      "matrix"
+    ],
+    "id": "matrix-simple",
+    "ts": true,
+    "tags": [],
+    "title": "Simple Matrix",
+    "titleCN": "简单的矩阵图",
+    "difficulty": 1
+  },
+  {
+    "category": [
       "parallel"
     ],
     "id": "parallel-simple",
@@ -611,6 +622,50 @@ export default [
     "tags": [],
     "title": "Temperature Change in the Coming Week",
     "titleCN": "未来一周气温变化",
+    "difficulty": 2
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-correlation-heatmap",
+    "ts": true,
+    "tags": [],
+    "title": "Correlation Matrix (Heatmap)",
+    "titleCN": "相关矩阵（热力图）",
+    "difficulty": 2
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-correlation-scatter",
+    "ts": true,
+    "tags": [],
+    "title": "Correlation Matrix (Scatter)",
+    "titleCN": "相关矩阵（散点图）",
+    "difficulty": 2
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-graph",
+    "ts": true,
+    "tags": [],
+    "title": "Graph Chart in Matrix",
+    "titleCN": "矩阵布局下的关系图",
+    "difficulty": 2
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-pie",
+    "ts": true,
+    "tags": [],
+    "title": "Pie Charts in Matrix",
+    "titleCN": "矩阵布局下的饼图",
     "difficulty": 2
   },
   {
@@ -1068,6 +1123,17 @@ export default [
     "tags": [],
     "title": "Distribution of Electricity",
     "titleCN": "一天用电量分布",
+    "difficulty": 3
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-confusion",
+    "ts": true,
+    "tags": [],
+    "title": "Confusion Matrix",
+    "titleCN": "混淆矩阵",
     "difficulty": 3
   },
   {
@@ -1717,6 +1783,17 @@ export default [
     "tags": [],
     "title": "Line Race",
     "titleCN": "动态排序折线图",
+    "difficulty": 5
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-covariance",
+    "ts": true,
+    "tags": [],
+    "title": "Covariance Matrix",
+    "titleCN": "协方差矩阵",
     "difficulty": 5
   },
   {
@@ -2653,6 +2730,17 @@ export default [
     "tags": [],
     "title": "USA Choropleth Map with Projection",
     "titleCN": "自定义地图投影",
+    "difficulty": 10
+  },
+  {
+    "category": [
+      "matrix"
+    ],
+    "id": "matrix-periodic-table",
+    "ts": true,
+    "tags": [],
+    "title": "Periodic Table",
+    "titleCN": "元素周期表",
     "difficulty": 10
   },
   {

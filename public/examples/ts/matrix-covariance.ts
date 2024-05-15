@@ -62,14 +62,20 @@ for (let i = 1; i <= size; ++i) {
 option = {
   matrix: {
     x: {
-      data: xData
+      data: xData,
+      show: false
     },
     y: {
-      data: yData
+      data: yData,
+      show: false
     },
     width: 500,
     height: 500,
     left: (window.innerWidth - 500) / 2
+  },
+  tooltip: {
+    show: true,
+    valueFormatter: value => Math.round(value)
   },
   visualMap: {
     type: 'continuous',

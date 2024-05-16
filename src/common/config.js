@@ -20,6 +20,7 @@ export const EXAMPLE_CATEGORIES = [
   'pictorialBar',
   'themeRiver',
   'calendar',
+  'matrix',
   'custom',
 
   'dataset',

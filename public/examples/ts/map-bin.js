@@ -60,6 +60,7 @@ function getCoord(params, api, lngIndex, latIndex) {
 }
 
 option = {
+  backgroundColor: 'transparent',
   tooltip: {},
   visualMap: {
     type: 'piecewise',

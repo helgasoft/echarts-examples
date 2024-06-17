@@ -215,8 +215,12 @@ function getScripts(nightly) {
         ]
       : []),
     // echarts stat
-    ...(code.indexOf('ecStat.') > -1
+    ...(code.indexOf('ecStat') > -1
       ? [getScriptURL(SCRIPT_URLS.echartsStatJS)]
+      : []),
+    // echarts graph modularity
+    ...(code.indexOf('graph') > -1 && code.indexOf('modularity') > -1
+      ? [getScriptURL(SCRIPT_URLS.echartsGraphModularityJS)]
       : []),
     // echarts map
     ...(/map.*:.*['"]world['"]/g.test(code)

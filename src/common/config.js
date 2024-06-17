@@ -141,7 +141,9 @@ const SCRIPT_URLS = {
 
   bmapLibJS:
     'https://api.map.baidu.com/api?v=3.0&ak=KOmVjPVUAey1G2E8zNhPiuQ6QiEmAwZu',
-  echartsBMapJS: '/dist/extension/bmap.min.js'
+  echartsBMapJS: '/dist/extension/bmap.min.js',
+
+  echartsGraphModularityJS: `${CDN_ROOT}echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js`
 };
 
 const SCRIPT_URLS_CN = {
@@ -167,5 +169,7 @@ const SCRIPT_URLS_CN = {
   acornJS: `https://cdn.staticfile.net/acorn/8.7.1/acorn.min.js`,
 
   bmapLibJS: SCRIPT_URLS.bmapLibJS,
-  echartsBMapJS: SCRIPT_URLS.echartsBMapJS
+  echartsBMapJS: SCRIPT_URLS.echartsBMapJS,
+
+  echartsGraphModularityJS: `${CDN_ROOT_CN_NPM}echarts-graph-modularity/2/files/dist/echarts-graph-modularity.min.js`
 };

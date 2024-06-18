@@ -935,6 +935,7 @@ $handler-width: 15px;
 #editor-control-panel,
 #full-code-generate-config {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  user-select: none;
 }
 
 #option-outline {

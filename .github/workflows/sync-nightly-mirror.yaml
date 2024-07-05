@@ -22,5 +22,11 @@ jobs:
           node-version: latest
           registry-url: https://registry.npmjs.org/
 
-      - name: Sync
-        run: node --unhandled-rejections=strict ${{env.WORKFLOW_SCRIPTS_DIR}}/sync-nightly-mirror.js
+      - name: Sync zrender-nightly
+        working-directory: ${{env.WORKFLOW_SCRIPTS_DIR}}
+        run: node --unhandled-rejections=strict sync-nightly-mirror.js zrender-nightly
+        continue-on-error: true
+
+      - name: Sync echarts-nightly
+        working-directory: ${{env.WORKFLOW_SCRIPTS_DIR}}
+        run: node --unhandled-rejections=strict sync-nightly-mirror.js echarts-nightly

@@ -160,7 +160,7 @@ const SCRIPT_URLS_CN = {
   echartsStatJS: `${CDN_ROOT_CN_NPM}echarts-stat/latest/files/dist/ecStat.min.js`,
   echartsGLJS: `${CDN_ROOT_CN_NPM}echarts-gl/2/files/dist/echarts-gl.min.js`,
   datGUIMinJS: `${CDN_ROOT_CN}dat-gui/0.6.5/dat.gui.min.js`,
-  monacoDir: `${CDN_ROOT_CN_NPM}monaco-editor/0.27.0/min/vs`,
+  monacoDir: `${CDN_ROOT_CN_NPM}monaco-editor/0.27.0/files/min/vs`,
   aceDir: `${CDN_ROOT_CN_NPM}ace-builds/1.4.12/files/src-min-noconflict`,
   prettierDir: `${CDN_ROOT_CN}prettier/2.3.2`,
   highlightjsDir: `${CDN_ROOT_CN_NPM}@highlightjs/cdn-assets/11.8.0/files`,
